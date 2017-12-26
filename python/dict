@@ -1,0 +1,14 @@
+grades ={86.5:"john",78.5:"jack",84.5:"jill",72.1:"Harry",80.5:"joe"}
+
+def grades_sum(scores):
+    total = 0
+    for score in scores:
+        total += score
+    return total
+
+def grades_average(grades):
+    return grades_sum(grades) / float(len(grades))
+
+print(grades_average(grades))
+print(max(grades.values()))
+print(sorted(grades.values()))
