@@ -1,0 +1,5 @@
+noofhourworkedbyeploinaweek=40
+payrateperhour=400
+numberofweeksinamonth =4
+monthlypay=noofhourworkedbyeploinaweek*payrateperhour*numberofweeksinamonth
+print("monthlypay",monthlypay)
