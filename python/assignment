@@ -1,0 +1,14 @@
+employeeid=1001
+basicsalary=15000
+allow=6000
+mnsal=basicsalary+allow
+c=10000
+if mnsal > c :
+	incometax=(20*mnsal)/100
+	netsal=mnsal-incometax
+	print("employeeid",employeeid)
+	print("basicsalary",basicsalary)
+	print("allow",allow)
+	print("mnsal",mnsal)
+	print("incometax",incometax)
+	print("netsal",netsal)
